@@ -1,12 +1,12 @@
 import React from 'react';
 import {View, Text, StyleSheet, Image} from 'react-native';
-import Profile from '../../../assets/images/cancel_24px_outlined.png'
+import Cancel from '../../../assets/img/cancel_24px_outlined.png'
 
 const Error = () => {
   return (
     <View style={styles.container}>
       <Text>Email sudah terdaftar pada aplikasi</Text>
-      <Image source={{Profile}}/>
+      <Image source={{Cancel}}/>
     </View>
   );
 };

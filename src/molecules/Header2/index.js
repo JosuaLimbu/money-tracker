@@ -1,14 +1,14 @@
 import React from 'react';
 import {View, Text, StyleSheet, Button, TouchableOpacity} from 'react-native';
 
-import {ArrowBack} from '../../../assets/icons';
+import Back from '../../../assets/icons/arrow_back.svg';
 
 
 const Header2 = ({title, navigation}) => {
   return (
     <View style={styles.container}>
       <TouchableOpacity onPress={() => navigation.goBack()}>
-        <ArrowBack />
+        <Back />
       </TouchableOpacity>
       <Text style={styles.text}>{title}</Text>
     </View>
